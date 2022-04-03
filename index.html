@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//css/bootstrap.css">
+    <title>Who is the first?</title>
+</head>
+<body class="bg-success">
+    <h1 class="text-center text-white pt-5">Who is the first?</h1>
+    
+    <main class="container">
+        <section class="sidebar">
+            <div class="sidebar__top">
+                <form action="https://echo.www.w3schools.com/" method="GET" class="sidebar__form row">
+                    <div class="d-flex col-9">
+                        <label class="text-white h3 me-3" for="sidebar__enter">Distance</label>
+                        <input type="text" class="sidebar__input form-control" id="sidebar__enter" placeholder="enter km" name="enter" min="1" max="999999999" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary col-3">Convert</button>
+                </form>
+            </div>
+            
+            <div class="sidebar__bottom mt-5 pt-5">
+                <ul class="sidebar__list list-unstyled row text-center">
+                    <li class="sidebar__item col">
+                        <img src="./img/walk.jpg" alt="walk" width="200" height="200" class="rounded-circle"> 
+                        <h1 class="text-white">Walking</h1>
+                        <p class="sidebar__walk text-white display-6">result:</p>
+                    </li>
+
+                    <li class="sidebar__item col">
+                        <img src="./img/bike.jpg" alt="bike" width="200" height="200" class="rounded-circle "> 
+                        <h1 class="text-white">Bicycle</h1>
+                        <p class="sidebar__bike text-white display-6">result:</p>
+                    </li>
+
+                    <li class="sidebar__item col">
+                        <img src="./img/car.png" alt="car" width="200" height="200" class="rounded-circle"> 
+                        <h1 class="text-white ">AutoCar</h1>
+                        <p class="sidebar__car text-white display-6">result:</p>
+                    </li>
+
+                    <li class="sidebar__item col">
+                        <img src="./img/plane.jpg" alt="plane" width="200" height="200" class="rounded-circle"> 
+                        <h1 class="text-white">AirPlane</h1>
+                        <p class="sidebar__plane text-white display-6">result:</p>
+                    </li>
+   
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
